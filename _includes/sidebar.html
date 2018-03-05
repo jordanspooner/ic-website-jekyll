@@ -1,0 +1,47 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      {% include icon-email.html username=site.email %}
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}">About</a>
+      <a class="sidebar-nav-item{% if page.url == '/blog/' %} active{% endif %}" href="{{ site.baseurl }}/blog/">Blog</a>
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+  <div class="container sidebar-bottom">
+    <ul class="social-media-list">
+      {% if site.linkedin_username %}
+      <li>
+        {% include icon-linkedin.html username=site.linkedin_username %}
+      </li>
+      {% endif %}
+
+      {% if site.github_username %}
+      <li>
+        {% include icon-github.html username=site.github_username %}
+      </li>
+      {% endif %}
+
+      {% if site.devpost_username %}
+      <li>
+        {% include icon-devpost.html username=site.devpost_username %}
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</div>
