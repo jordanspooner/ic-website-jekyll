@@ -133,7 +133,7 @@ We can implement this using Hooke's Law by stating that an object near to the su
 
 We can therefore define the force as:
 
-$$F=\begin{cases}0&\text{where }d\leq0\text{ (completely unsubmerged)}\\dv\rho&\text{where }0&lt;d&lt;1\text{ (partially submerged)}\\v\rho&\text{where }d\geq1\text{ (completely submerged)}\end{cases}$$
+$$F=\begin{cases}0&\text{where }d\leq0\text{ (completely unsubmerged)}\\dv\rho&\text{where }0<d<1\text{ (partially submerged)}\\v\rho&\text{where }d\geq1\text{ (completely submerged)}\end{cases}$$
 
 where $d$ gives the proportion of the object submerged, $v$ gives the volume of the object, and $\rho$ gives the density of the liquid. We can calculate the value of $d$ given the y value of the object, $y$, the y-value of the liquid plane, $y_0$ and h is the height of the object (i.e. $y_0-s$ gives the value below which the object is considered to be completely submerged):
 

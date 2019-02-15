@@ -5,7 +5,9 @@ title: About
 
 # About Me
 
-I am a hardworking, reliable and highly motivated penultimate year computing student at **Imperial College London**. I am projected to achieve a first class degree, having been awarded the **Morgan Stanley**, **G-Research** and **ARM** Project prizes in my first year. I have previous work experience at **IBM** and **Netcraft**, and teach JavaScript as an instructor for **TuringLab**.
+I am a hardworking, reliable and highly motivated penultimate year computing student at **Imperial College London**.
+I am projected to achieve a first class degree, having been awarded the **G-Research** prize in both first and second year.
+I have previous work experience at **IBM**, **Netcraft** and **Improbable**, and teach JavaScript as an instructor for **TuringLab**.
 
 <div class="message">
 <h3>Links</h3>
@@ -16,9 +18,6 @@ I am a hardworking, reliable and highly motivated penultimate year computing stu
     </li>
     <li>
         <a href="https://www.doc.ic.ac.uk/~js4416/web-cv.pdf"><span class="icon icon--doc">{% include icon-doc.svg %}</span><span class="username">CV</span></a>
-    </li>
-    <li>
-        <a href="https://www.doc.ic.ac.uk/~js4416/student-record.pdf"><span class="icon icon--doc">{% include icon-doc.svg %}</span><span class="username">Student Record</span></a>
     </li>
     <li>
         <a href="https://www.linkedin.com/in/jordan-spooner"><span class="icon icon--linkedin">{% include icon-linkedin.svg %}</span><span class="username">LinkedIn</span></a>
